@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Croissant Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fas fa-bread-slice"></i>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#"><i class="fas fa-home" style="color: #ff8c00;"></i></a></li>
+                    <li><a href="#"><i class="fas fa-th" style="color: #4CAF50;"></i></a></li>
+                    <li><a href="#"><i class="fas fa-chart-pie" style="color: #2196F3;"></i></a></li>
+                    <li><a href="#"><i class="fas fa-shopping-bag" style="color: #f44336;"></i></a></li>
+                    <li><a href="#"><i class="fas fa-cog" style="color: #9C27B0;"></i></a></li>
+                    <li><a href="#"><i class="fas fa-sign-out-alt" style="color: #795548;"></i></a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <div class="greeting">
+                    <h1>Welcome, Gorry</h1>
+                    <p>Discover whatever you need easily</p>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search product...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="filter-button">
+                    <button><i class="fas fa-filter"></i></button>
+                </div>
+            </header>
+            <nav class="product-categories">
+                <ul>
+                    <li><a href="#" class="category-button"><i class="fas fa-star"></i> Signature</a></li>
+                    <li><a href="#" class="category-button active"><i class="fas fa-bread-slice"></i> Croissant</a></li>
+                    <li><a href="#" class="category-button"><i class="fas fa-stroopwafel"></i> Waffle</a></li>
+                    <li><a href="#" class="category-button"><i class="fas fa-coffee"></i> Coffee</a></li>
+                    <li><a href="#" class="category-button"><i class="fas fa-ice-cream"></i> Ice Cream</a></li>
+                </ul>
+            </nav>
+            <section class="products">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://picsum.photos/200/150?random=1" alt="Almond Brown Sugar Croissant">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Almond Brown Sugar Croissant</h3>
+                        <p>Sweet croissant with topping almonds and brown sugar</p>
+                        <p class="price">$12.98 / 3 pcs</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://picsum.photos/200/150?random=2" alt="Smoke Tenderloin Slice Croissant">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Smoke Tenderloin Slice Croissant</h3>
+                        <p>Plain croissant with smoke tenderloin beef sliced and vegetable</p>
+                        <p class="price">$10.01 / 2 pcs</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://picsum.photos/200/150?random=3" alt="Berry Whipped Cream Croissant">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Berry Whipped Cream Croissant</h3>
+                        <p>Sweet croissant with blueberries and strawberries inside</p>
+                        <p class="price">$8.92 / 3 pcs</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://picsum.photos/200/150?random=4" alt="Sweet Granulated Sugar Croissant">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Sweet Granulated Sugar Croissant</h3>
+                        <p>Sweet croissant with granulated sugar</p>
+                        <p class="price">$5.58 / 1 pcs</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://picsum.photos/200/150?random=5" alt="Sweet Chocolate Chocochips Croissant">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Sweet Chocolate Chocochips Croissant</h3>
+                        <p>Sweet croissant with chocolate and chocochips</p>
+                        <p class="price">$7.77 / 2 pcs</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://picsum.photos/200/150?random=6" alt="Basic Croissant La Ta Dhore">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Basic Croissant La Ta Dhore</h3>
+                        <p>Basic croissant with no topping</p>
+                        <p class="price">$3.45 / 1 pcs</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside class="cart">
+            <div class="cart-header">
+                <h2>Current Order</h2>
+                <button><i class="fas fa-cog"></i></button>
+            </div>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="https://picsum.photos/60/60?random=7" alt="Smoke Tenderloin Slice Croissant">
+                    <div class="item-details">
+                        <h3>Smoke Tenderloin Slice Croissant</h3>
+                        <p class="price">$10.01</p>
+                    </div>
+                    <div class="quantity-controls">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="https://picsum.photos/60/60?random=8" alt="Sweet Chocolate Chocochips Croissant">
+                    <div class="item-details">
+                        <h3>Sweet Chocolate Chocochips Croissant</h3>
+                        <p class="price">$22.02</p>
+                    </div>
+                    <div class="quantity-controls">
+                        <button>-</button>
+                        <span>2</span>
+                        <button>+</button>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="https://picsum.photos/60/60?random=9" alt="Sweet Granulated Sugar Croissant">
+                    <div class="item-details">
+                        <h3>Sweet Granulated Sugar Croissant</h3>
+                        <p class="price">$5.58</p>
+                    </div>
+                    <div class="quantity-controls">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$37.61</td>
+                    </tr>
+                    <tr>
+                        <td>Discount sales</td>
+                        <td>-$5.00</td>
+                    </tr>
+                     <tr>
+                        <td>Total sales tax</td>
+                        <td>$2.25</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$34.86</td>
+                    </tr>
+                </table>
+            </div>
+            <button class="checkout-button">Continue to Payment</button>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
